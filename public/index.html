@@ -1,0 +1,26 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index.html</title>
+  </head>
+  <body>
+    <h1>Query segítségével</h1>
+
+    <form action="/hf1/query" method="get">
+      <input type="text" name="id" id="id" />
+      <input type="submit" value="submit" />
+    </form>
+
+    <h1>URL segítségével</h1>
+
+    <a href="/hf1/param/almafa">Kattints ide</a>
+
+    <h1>POST segítségével</h1>
+    <form action="/hf1/body" method="post">
+      <input type="text" name="id" id="id" />
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>

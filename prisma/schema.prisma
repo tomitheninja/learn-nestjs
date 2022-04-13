@@ -11,6 +11,6 @@ datasource db {
 }
 
 model EvenOrOdd {
-  num   Int @id
+  num  Int @id
   even Boolean
 }

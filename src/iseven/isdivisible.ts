@@ -8,7 +8,7 @@ export class IsDivisible {
   }
 
   public canDivide(num: number): boolean {
-    return num % this.divisor == 0;
+    return num % this.divisor === 0;
   }
 }
 
